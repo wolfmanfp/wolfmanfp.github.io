@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jaapokki Regular';
+    src:
+        url('../fonts/jaapokki-regular.eot') format('embedded-opentype'),
+        url('../fonts/jaapokki-regular.svg') format('svg'),
+        url('../fonts/jaapokki-regular.ttf') format('truetype'),
+        url('../fonts/jaapokki-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jaapokki Enchance Regular';
+    src:
+        url('../fonts/jaapokkienchance-regular.eot') format('embedded-opentype'),
+        url('../fonts/jaapokkienchance-regular.svg') format('svg'),
+        url('../fonts/jaapokkienchance-regular.ttf') format('truetype'),
+        url('../fonts/jaapokkienchance-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jaapokki Subtract Regular';
+    src:
+        url('../fonts/jaapokkisubtract-regular.eot') format('embedded-opentype'),
+        url('../fonts/jaapokkisubtract-regular.svg') format('svg'),
+        url('../fonts/jaapokkisubtract-regular.ttf') format('truetype'),
+        url('../fonts/jaapokkisubtract-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

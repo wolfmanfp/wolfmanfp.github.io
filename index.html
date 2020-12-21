@@ -1,9 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Wolfman</title>
-    </head>
-    <body>
-        <p>hello</p>
-    </body>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wolfman</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- FAVICON -->
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#000020">
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#000020">
+    <meta name="theme-color" content="#000020">
+</head>
+
+<body>
+    <main>
+        <h1 class="title">
+            <span class="regular">W</span>olf<span class="regular">m</span>an
+        </h1>
+        <ul class="menu">
+            <li><a href="https://twitter.com/wolfmanFP" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/wolfmanfp" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/wolfmanfp" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.last.fm/user/wolfmanFP" target="_blank">Last.fm</a></li>
+            <li><a href="https://rawg.io/@wolfmanfp" target="_blank">RAWG</a></li>
+            <li><a href="/tortoisedream" target="_blank">🐢</a></li>
+            <li>
+                <script type="text/javascript" language="javascript">
+                    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                    // Random encryption key feature coded by Andrew Moulden
+                    // This code is freeware provided these four comment lines remain intact
+                    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                    {
+                        coded = "eZ1ZN@FyngChB.fJ"
+                        key = "a3KoqHkTvpObS1m5hu4yIlAVresQ2iCWfJc7MnEjNZwxd8Rzg0PLGBYU9XFt6D"
+                        shift = coded.length
+                        link = ""
+                        for (i = 0; i < coded.length; i++) {
+                            if (key.indexOf(coded.charAt(i)) == -1) {
+                                ltr = coded.charAt(i)
+                                link += (ltr)
+                            }
+                            else {
+                                ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                                link += (key.charAt(ltr))
+                            }
+                        }
+                        document.write("<a href='mailto:" + link + "'>📧</a>")
+                    }
+                </script>
+            </li>
+        </ul>
+    </main>
+    <div id="greenpixel" />
+</body>
+
 </html>
