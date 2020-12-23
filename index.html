@@ -7,7 +7,7 @@
     <title>Wolfman</title>
 
     <link rel="stylesheet" href="styles/main.css">
-
+    
     <!-- FAVICON -->
 
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -33,34 +33,12 @@
             <li><a href="https://www.last.fm/user/wolfmanFP" target="_blank">Last.fm</a></li>
             <li><a href="https://rawg.io/@wolfmanfp" target="_blank">RAWG</a></li>
             <li><a href="/tortoisedream" target="_blank">🐢</a></li>
-            <li>
-                <script type="text/javascript" language="javascript">
-                    // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-                    // Random encryption key feature coded by Andrew Moulden
-                    // This code is freeware provided these four comment lines remain intact
-                    // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-                    {
-                        coded = "eZ1ZN@FyngChB.fJ"
-                        key = "a3KoqHkTvpObS1m5hu4yIlAVresQ2iCWfJc7MnEjNZwxd8Rzg0PLGBYU9XFt6D"
-                        shift = coded.length
-                        link = ""
-                        for (i = 0; i < coded.length; i++) {
-                            if (key.indexOf(coded.charAt(i)) == -1) {
-                                ltr = coded.charAt(i)
-                                link += (ltr)
-                            }
-                            else {
-                                ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
-                                link += (key.charAt(ltr))
-                            }
-                        }
-                        document.write("<a href='mailto:" + link + "'>📧</a>")
-                    }
-                </script>
-            </li>
+            <li><a data-gen-email>📧</a></li>
         </ul>
     </main>
     <div id="greenpixel" />
+
+    <script type="text/javascript" src="scripts/obfuscator.js"></script>
 </body>
 
 </html>
