@@ -39,7 +39,6 @@ main {
 .menu {
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-family: 'JetBrains Mono';
     list-style-type: none;
 }
@@ -68,6 +67,10 @@ main {
 }
 
 @media(max-width: 768px) {
+    body {
+        max-height: calc(100vh - 120px);
+    }
+
     .menu {
         flex-direction: column;
     }
