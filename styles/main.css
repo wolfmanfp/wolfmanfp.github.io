@@ -47,14 +47,19 @@ main {
     margin-right: 10px;
 }
 
-.menu li a {
+.menulink {
     color: var(--font-color);
 }
 
-.menu li a:hover {
+.menulink:hover,
+.highlighted {
     background-color: var(--font-color);
     color: var(--background);
     text-decoration: none;
+}
+
+.highlighted:hover {
+    background-color: yellow;
 }
 
 #greenpixel {
