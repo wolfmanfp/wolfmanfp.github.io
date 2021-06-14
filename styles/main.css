@@ -62,6 +62,14 @@ main {
     background-color: yellow;
 }
 
+.iconlink {
+    text-decoration: none;
+}
+
+.iconlink:hover {
+    background-color: var(--font-color);
+}
+
 #greenpixel {
     background-color: var(--green-pixel);
     height: 10px;
