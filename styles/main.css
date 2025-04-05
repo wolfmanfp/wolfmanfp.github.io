@@ -36,6 +36,14 @@ main {
     font-family: 'Jaapokki Regular';
 }
 
+.title::selection, 
+.title .regular::selection, 
+.menu li::selection, 
+.menulink::selection {
+    background-color: var(--font-color);
+    color: var(--background);
+}
+
 .menu {
     display: flex;
     flex-direction: row;
