@@ -49,6 +49,7 @@ main {
     flex-direction: row;
     font-family: 'JetBrains Mono';
     list-style-type: none;
+    margin-left: 5px;
 }
 
 .menu li {
